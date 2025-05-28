@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LatifTech - Download Notes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 20px;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .container {
+      padding: 40px 20px 80px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #00ffcc;
+    }
+
+    .notes-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .note {
+      background-color: rgba(0, 0, 0, 0.6);
+      border: 1px solid #00ffcc;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .note:hover {
+      background-color: rgba(0, 255, 204, 0.2);
+      transform: scale(1.05);
+    }
+
+    .note a {
+      text-decoration: none;
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    .note a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    LatifTech
+  </header>
+
+  <div class="container">
+    <h2>Download Study Notes</h2>
+    <div class="notes-list">
+      <div class="note">
+        <h3>ICT</h3>
+        <a href="ICT.pdf" download>Download PDF</a>
+      </div>
+      <div class="note">
+        <h3>Operating System</h3>
+        <a href="OS.pdf" download>Download PDF</a>
+      </div>
+      <div class="note">
+        <h3>Computer Network</h3>
+        <a href="Computer Networks.pdf" download>Download PDF</a>
+      </div>
+      <div class="note">
+        <h3>MS-Office</h3>
+        <a href="MS-Office.pdf" download>Download PDF</a>
+      </div>
+      </div>
+  </div>
+
+  <footer>
+    By: Muhammad Latif
+  </footer>
+
+</body>
+</html>
